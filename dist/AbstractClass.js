@@ -4,9 +4,6 @@ class takePhoto {
         this.cameraMode = cameraMode;
         this.filter = filter;
     }
-    takePhoto() {
-        console.log("Taking a photo in Abstract Class");
-    }
 }
 class Youtube extends takePhoto {
     constructor(cameraMode, filter, burstMode) {
